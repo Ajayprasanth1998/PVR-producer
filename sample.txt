@@ -56,6 +56,38 @@ DESC movie;
 
 
 
+------->  Movie add <---------
+
+{
+    "movieid": 6,
+    "title": "JEEVA",
+    "genre": "SPORTS",
+    "duration": "2h 00m",
+    "rating": "9.3",
+    "cinemaid": 1,
+    "showtime": [
+        "2:00 PM",
+        "6:00 PM"
+    ]
+}
+
+
+------->  Movie update <---------
+
+{
+    "title": "VILLU",
+    "genre": "Commercial",
+    "duration": "2h 20m",
+    "rating": "3.3",
+    "cinemaid": 2,
+    "showtime": [
+        "2:00 PM",
+        "6:00 PM"
+    ]
+}
+
+
+
 
 
 
