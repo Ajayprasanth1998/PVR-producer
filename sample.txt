@@ -1,0 +1,63 @@
+
+-------->  cinema add  <-----------
+
+{
+  "name": "DR",
+  "location": "Ranipet",
+  "movie": [
+    {
+      "title": "kaithi",
+      "genre": "Thriller",
+      "duration": "2h 43m",
+      "rating": "9.0"
+    }
+  ]
+}
+
+--------> cinema update <-------------
+
+{
+  "name": "Pvr",
+  "location": "vellore",
+  "movie": [
+    {
+      "movieid":1,
+      "title": "maaveran",
+      "genre": "Thriller",
+      "duration": "2h 13m",
+      "rating": "9.3"
+    }
+  ]
+}
+
+
+
+
+
+Sql --->Database commands
+create database PVRCINEMA;
+USE PVRCINEMA;
+
+drop database PVRCINEMA;
+SELECT * FROM booking;
+select * from cinema;
+select * from movie;
+select * from clint;
+select * from movie_showtime;
+
+SHOW TABLES;
+
+SELECT user, host, plugin FROM mysql.user WHERE user='root';
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'root';
+FLUSH PRIVILEGES;
+DESC movie;
+
+
+
+
+
+
+
+
+
+
