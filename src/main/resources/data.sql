@@ -30,6 +30,7 @@ INSERT INTO movie_showtime (movie_movie_id, showtime) VALUES (5, '10:00 AM');
 
 INSERT INTO clint (user_name, password) VALUES ('Ajay', 'Ajay123');
 INSERT INTO clint (user_name, password) VALUES ('Kiruba', 'kiruba123');
+INSERT INTO clint (user_name, password) VALUES ('jaffer', 'jaffer123');
 
 
 INSERT INTO booking (movie_id, cinema_id, clint_id) VALUES (1, 1, 1);
